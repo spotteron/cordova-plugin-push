@@ -58,13 +58,13 @@
     <config-file target="config.xml" parent="/*">
       <preference name="AndroidXEnabled" value="true" />
       <preference name="GradlePluginGoogleServicesEnabled" value="true" />
-      <preference name="GradlePluginGoogleServicesVersion" value="4.3.8" />
+      <preference name="GradlePluginGoogleServicesVersion" value="4.3.15" />
 
       <preference name="GradlePluginKotlinEnabled" value="true" />
-      <preference name="GradlePluginKotlinVersion" value="1.5.20" />
+      <preference name="GradlePluginKotlinVersion" value="1.7.10" />
     </config-file>
 
-    <preference name="ANDROIDX_CORE_VERSION" default="1.6.+"/>
+    <preference name="ANDROIDX_CORE_VERSION" default="1.9.+"/>
     <preference name="FCM_VERSION" default="23.+"/>
 
     <framework src="androidx.core:core:$ANDROIDX_CORE_VERSION" />
@@ -92,7 +92,7 @@
   </platform>
 
   <platform name="ios">
-    <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 8.1.1"/>
+    <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 10.6.0"/>
 
     <config-file target="config.xml" parent="/*">
       <feature name="PushNotification">
